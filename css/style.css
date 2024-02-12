@@ -1,0 +1,159 @@
+
+
+
+/* Navigation */
+
+.navigation {
+    position: sticky;
+    background: #000;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation a {
+    transition: 0.20s;
+}
+
+.navigation a:hover {
+    color: #FFF;
+}
+
+.navigation .container .logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+}
+
+/* .hero-section::before,
+.hero-section::after
+{
+    content: 'hello';
+    color: green;
+    background: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    transform: skewY(-3deg);
+} */
+
+.hero-section .grid {
+    grid-template-columns: 45% 55%;
+}
+
+.hero-section .grid .hero-text p {
+    width: 90%;
+    color: rgba(239, 245, 255, 0.74);
+    font-weight: 300;
+}
+
+.hero-section .container .hero-text .rainbow-button {
+    font-size: 0.86875rem;
+    padding: 10px 10px;
+    /* border: 2px solid transparent;  Set border to solid and transparent */ 
+    border-radius: 50px;
+    background: #0B0E14;
+    /* border-image: linear-gradient(to right, #02FCEF, #FF752B, #A02BFE) 1; */
+    color: rgba(252, 253, 255, 0.80);
+    text-decoration: none; /* Remove underline from links */
+}
+
+.hero-section .y-model {
+    cursor: pointer;
+    padding: 8px 13px;
+    background: #FF5100;
+    border-radius: 10px;
+    border: 2.5px solid rgba(252, 253, 255, 0.80);
+}
+
+
+/* Companies Section */
+
+.companies-section .container {
+  /*   background: pink; */
+    padding-top: 70px;
+    border-top: 2px solid #aaaaaa;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+/* .companies-section .container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    width: 10px;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+ */
+.companies-section img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.companies-section .container p {
+    width: 30%;
+    margin: 0 auto;
+    color: rgba(252, 253, 255, 0.80);
+    font-weight: 300;
+}
+
+
+
+/* Integration Section */
+.integration-section .container {
+    /* background: green; */
+    font-weight: 300;
+}
+
+.integration-section .container h2 span {
+    color: #FFC446;
+}
+
+.integration-section .container p {
+    width: 50%;
+    margin-top: 20px;
+    color: rgba(252, 253, 255, 0.80);
+}
+
+.integration-section .container .envelope-image-container {
+   /*  background: red; */
+    text-align: center;
+}
+
+.integration-section .container .envelope-image-container img {
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center ;
+}
+
+.integration-section .container .button-container  {
+    padding: 0 30px;
+    grid-template-columns: repeat(10, 1fr);
+    color: rgba(239, 245, 255, 0.74);;
+}
+
+.integration-section .container .button-container .icon p {
+    font-size: 0.7rem;
+   
+}
+
+.integration-section .container .button-container .icon i {
+    border: 1px solid #aaaaaa;
+    padding: 18px;
+    border-radius: 15px;
+  
+}
