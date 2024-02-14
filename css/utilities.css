@@ -213,6 +213,10 @@ a {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -271,6 +275,12 @@ a {
   
 }
 
+.card {
+    border-top: 1px solid #aaaaaa;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
 .btn.btn-outline:hover {
     color: #EFF5FF;
 }
@@ -295,7 +305,11 @@ a {
 }
 
 .gap-4 {
-    gap: 2rem
+    gap: 2rem;
+}
+
+.gap-5 {
+    gap: 3rem;
 }
 
 /* Text Center Utilities */

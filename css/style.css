@@ -157,3 +157,79 @@
     border-radius: 15px;
   
 }
+
+/* Experience Section */
+
+
+.experience-section .container .card h2 {
+    font-size: 19.2;
+}
+.experience-section .container p {
+    color: rgba(252, 253, 255, 0.80) !important;
+    font-weight: 300;
+
+}
+
+.experience-section p {
+    width: 65%;
+}
+
+/* Develop Section */
+.develop-section .container img {
+
+}
+
+.develop-section .container p {
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+.develop-section .container .react-image-container {
+    /*  background: red; */
+     text-align: center;
+ }
+
+ .develop-section .container .react-image-container img {
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center ;
+}
+
+
+/* Feature Section */
+.feature-section .container {
+    padding-top: 70px;
+    border-top: 2px solid #aaaaaa;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.feature-section .container h4 {
+    margin-top: 1rem;
+}
+
+.feature-section .container h2 {
+    font-weight: 300;
+    width: 40%;
+}
+
+.feature-section .container p {
+    margin-top: 0.5rem;
+    font-weight: 300;
+    font-size: 0.86875rem;
+}
+
+.feature-section .container .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feature-section .container .feature-container .feature > *{
+    color: rgba(252, 253, 255, 0.80) !important;
+    /* font-weight: 300; */
+   }
